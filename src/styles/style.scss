@@ -1,5 +1,9 @@
 $background: #191c2f;
 
+body {
+  background-color: $background;
+}
+
 .qr-scanner {
   background: url(../styles/icons/scan.svg) no-repeat;
   width: 40px;
@@ -55,6 +59,46 @@ $background: #191c2f;
   bottom: 93%;
   left: 2%;
 }
+
+.wallet-menu {
+  text-align: center;
+  width: 95%;
+  height: 3em;
+  line-height: 3em;
+  position: absolute;
+  bottom: 58%;
+  left: 5%;
+}
+
+.send-button {
+  background: url(../styles/icons/send.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 30%;
+}
+
+.send-button:hover {
+  background: url(../styles/icons/hover/sendHover.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.receive-button {
+  background: url(../styles/icons/receive.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 55%;
+}
+
+.receive-button:hover {
+  background: url(../styles/icons/hover/getHover.svg) no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+
 
 //list of wallets
 /*.Ethereum {

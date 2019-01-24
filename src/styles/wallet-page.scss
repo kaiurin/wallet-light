@@ -5,7 +5,7 @@ $background: #191c2f;
   height: 7em;
   line-height: 7em;
   position: absolute;
-  bottom: 70%;
+  bottom: 64%;
   left: 2%;
   text-align: center;
 }
@@ -27,7 +27,7 @@ $background: #191c2f;
 .transactions {
   overflow: auto;
   width: 95%;
-  height: 60%;
+  height: 45%;
   position: absolute;
   bottom: 3%;
   left: 2%;
@@ -42,7 +42,7 @@ $background: #191c2f;
   text-align: center;
   color: #c8d5d3;
   position: absolute;
-  bottom: 63%;
+  bottom: 48%;
   left: 49%;
 }
 .transactions-button-active {
@@ -54,7 +54,7 @@ $background: #191c2f;
   text-align: center;
   color: #c8d5d3;
   position: absolute;
-  bottom: 63%;
+  bottom: 48%;
   left: 49%;
 }
 .transactions::-webkit-scrollbar {
@@ -83,7 +83,7 @@ $background: #191c2f;
 .channels {
   overflow: auto;
   width: 95%;
-  height: 60%;
+  height: 45%;
   position: absolute;
   bottom: 3%;
   left: 2%;
@@ -97,7 +97,7 @@ $background: #191c2f;
   text-align: center;
   color: #c8d5d3;
   position: absolute;
-  bottom: 63%;
+  bottom: 48%;
   left: 2%;
 }
 .channels-button-active {
@@ -109,7 +109,7 @@ $background: #191c2f;
   text-align: center;
   color: #c8d5d3;
   position: absolute;
-  bottom: 63%;
+  bottom: 48%;
   left: 2%;
 }
 

@@ -15,6 +15,7 @@ interface IChannels {
     balance: number
 }
 
+
 export class Wallet extends React.Component {
 
     state = {

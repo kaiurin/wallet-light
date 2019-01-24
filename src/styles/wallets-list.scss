@@ -87,22 +87,25 @@ $background: #191c2f;
 }
 
 .button-submit {
-  color: #191c2f;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  color: #b3bebc;
+  font-weight: 600;
   text-decoration: none;
   user-select: none;
-  padding: .35em 1.5em;
+  padding: .4em 1.6em;
   outline: none;
-  border: 2px solid;
-  border-radius: 1px;
+  border: 0 solid;
+  border-radius: 0;
   transition: 0.1s;
   position: absolute;
   left: 40%;
   top: 70%;
+  background: #444fa5;
 }
 
 .button-submit:hover {
-  background: #5765d7;
+  color: #a4afad;
+  background: #3c4692;
 }
 
 
