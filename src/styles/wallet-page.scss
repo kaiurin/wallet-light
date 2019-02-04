@@ -5,22 +5,29 @@ $background: #191c2f;
   height: 7em;
   line-height: 7em;
   position: absolute;
-  bottom: 64%;
+  bottom: 68%;
   left: 2%;
+  text-align: center;
+}
+.balance-title-block {
+  width: 100%;
+  height: 2em;
+  line-height: 2em;
   text-align: center;
 }
 .balance-title {
   font-family: 'Roboto', sans-serif;
   color: #c8d5d3;
-  position: absolute;
-  bottom: 40%;
-  left: 38%;
 }
-
+.balance-text-block {
+  width: 100%;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+}
 .balance-text {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
-  text-align: center;
   color: #e9f5f3;
 }
 
@@ -143,9 +150,9 @@ $background: #191c2f;
   margin-left: 2%;
   background-color: $background;
   width: 95%;
-  height: 2.5em;
+  height: 4em;
   text-align: left;
-  line-height: 2.5em;
+  line-height: 4em;
   display: block;
   position: relative;
 }
@@ -153,19 +160,26 @@ $background: #191c2f;
 .channels-list-body-name {
   font-family: 'Roboto', sans-serif;
   color: #c8d5d3;
-  padding-left: 15px;
-  /*position: absolute;
-  left: 15%;
-  top: 5px;*/
+  position: absolute;
+  left: 15px;
+  top: -18px;
 }
+.channels-list-body-balance {
+  font-family: 'Roboto', sans-serif;
+  color: #c8d5d3;
+  position: absolute;
+  left: 15px;
+  top: 1em;
+}
+
 .list-body {
   margin-top: 3%;
   margin-left: 2%;
   background-color: $background;
   width: 95%;
-  height: 2.5em;
+  height: 4em;
   text-align: center;
-  line-height: 2.5em;
+  line-height: 4em;
   display: block;
   position: relative;
 }
@@ -173,34 +187,34 @@ $background: #191c2f;
 .list-body-name {
   font-family: 'Roboto', sans-serif;
   color: #c8d5d3;
-  /*position: absolute;
-  left: 15%;
-  top: 5px;*/
+  position: absolute;
+  left: 70px;
+  top: -18px;
 }
 
 .list-body-balance {
   font-family: 'Roboto', sans-serif;
   color: #c8d5d3;
   position: absolute;
-  left: 82%;
-  top: -0.01em;
+  left: 70px;
+  top: 1em;
 }
 
 .send{
   display: inline-block;
   background: url(../styles/icons/yhod.svg) no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   left: 10px;
-  top: 13%;
+  top: 19%;
 }
 .receive {
   display: inline-block;
   background: url(../styles/icons/postypl.svg) no-repeat;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   left: 10px;
-  top: 13%;
+  top: 19%;
 }

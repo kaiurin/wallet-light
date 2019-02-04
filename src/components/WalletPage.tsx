@@ -24,43 +24,43 @@ export class Wallet extends React.Component {
         transactions: [
             {
                 id: 1,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'send',
                 balance: 0
             },
             {
                 id: 2,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'receive',
                 balance: 0
             },
             {
                 id: 3,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'receive',
                 balance: 0
             },
             {
                 id: 4,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'receive',
                 balance: 0
             },
             {
                 id: 5,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'receive',
                 balance: 0
             },
             {
                 id: 6,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'send',
                 balance: 0
             },
             {
                 id: 7,
-                name: 'Test',
+                name: 'UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR',
                 transaction: 'receive',
                 balance: 0
             },
@@ -159,7 +159,7 @@ export class Wallet extends React.Component {
             return (
                 <div key={channels.id} className={'channels-list-body'}>
                     <div className={'channels-list-body-name'}>{channels.name}</div>
-                    <div className={'list-body-balance'}>{channels.balance} / {channels.balance}</div>
+                    <div className={'channels-list-body-balance'}>{channels.balance} / {channels.balance}</div>
                 </div>
             );
         });
@@ -170,9 +170,12 @@ export class Wallet extends React.Component {
             return (
                 <div>
                     <div className={'balance'}>
-
+                        <div className={'balance-title-block'}>
                         <text className={'balance-title'}>Total balance</text>
+                        </div>
+                        <div className={'balance-text-block'}>
                         <text className={'balance-text'}>{this.state.balance} GByte</text>
+                        </div>
                     </div>
 
                     <div onClick={() => this.setState({list: 'transactions'})} className={'transactions-button-active'}> <text>Transactions</text> </div>
@@ -187,8 +190,12 @@ export class Wallet extends React.Component {
             return (
                 <div>
                     <div className={'balance'}>
-                        <text className={'balance-title'}>Total balance</text>
-                        <text className={'balance-text'}>{this.state.balance} GByte</text>
+                        <div className={'balance-title-block'}>
+                            <text className={'balance-title'}>Total balance</text>
+                        </div>
+                        <div className={'balance-text-block'}>
+                            <text className={'balance-text'}>{this.state.balance} GByte</text>
+                        </div>
                     </div>
                     <div onClick={() => this.setState({list: 'transactions'})} className={'transactions-button'}> <text>Transactions</text></div>
                     <div onClick={() => this.setState({list: 'channels'})} className={'channels-button-active'}> <text>Channels</text></div>

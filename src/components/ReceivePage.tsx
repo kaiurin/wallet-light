@@ -9,9 +9,8 @@ export class ReceivePage extends React.Component {
     };
 
     render() {
-        return <div>
+        return <div className={'receive-block'}>
             <div className={'qr-address'}>
-
             </div>
             <div className={'address'}>
                 <text>UTUZJCXSMNSPAIUVEYTHKVIYDJGJJAKR</text>

@@ -1,19 +1,24 @@
 $background: #191c2f;
 
-.address-input {
+.send-form {
+  width: 95%;
+  height: 500px;
   position: absolute;
-  left: 18%;
-  top: 21%;
+  left: 2%;
+  top: 7%;
+  text-align: center;
+}
+
+.address-input {
+  margin-top: 80px;
 }
 
 .amount-input {
-  position: absolute;
-  left: 18%;
-  top: 35%;
+  margin-top: 60px;
 }
 
 .send-input {
-  width: 20em;
+  width: 98%;
   height: 2em;
   border: 0;
   color: #505663;
@@ -37,6 +42,11 @@ $background: #191c2f;
   color: #505663;
 }
 
+
+
+.button-block {
+  height: 50px
+}
 .button-send-submit {
   font-family: 'Roboto', sans-serif;
   color: #b3bebc;
@@ -48,10 +58,9 @@ $background: #191c2f;
   border: 0 solid;
   border-radius: 0;
   transition: 0.1s;
-  position: absolute;
-  left: 35%;
-  top: 50%;
   background: #444fa5;
+  position: relative;
+  top: 50px;
 }
 
 .button-send-submit:hover {

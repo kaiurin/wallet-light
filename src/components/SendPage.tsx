@@ -6,7 +6,7 @@ export class SendPage extends React.Component {
 
     render() {
         return <div>
-            <form>
+            <form className={'send-form'}>
                 <div className={'address-input'}>
                     <input
                         required={true}
@@ -21,7 +21,9 @@ export class SendPage extends React.Component {
                         className="send-input"
                         placeholder="Amount"/>
                 </div>
-                <button className={'button-send-submit'} type="submit">Send</button>
+                <div className={'button-block'}>
+                <text className={'button-send-submit'} type="submit">Send</text>
+                </div>
             </form>
         </div>
     }
